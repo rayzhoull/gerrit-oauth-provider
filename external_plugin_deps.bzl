@@ -23,7 +23,7 @@ def external_plugin_deps(omit_commons_codec = True):
         artifact = "com.fasterxml.jackson.core:jackson-databind:" + JACKSON_VERS,
         sha1 = "0528de95f198afafbcfb0c09d2e43b6e0ea663ec",
         deps = [
-            "@jackson-annotations//jar",
+            "@jackson-annotations//jar:jar",
         ],
     )
     maven_jar(
